@@ -12,7 +12,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class TagDto {
-	private int thema_id;
-	private int category_id;
-	private String thema_name;
+	private int tag_id;
+	private String category_name;
+	private String tag_name;
 }
